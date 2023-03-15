@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  hotelRezApp
+//  Reservations
 //
-//  Created by kole ervine on 3/14/23.
+//  Created by Toby Youngberg on 3/14/23.
 //
 
 import UIKit

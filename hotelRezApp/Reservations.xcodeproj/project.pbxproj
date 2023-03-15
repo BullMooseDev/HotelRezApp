@@ -7,27 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FF71B3029C0B88200B27925 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF71B2F29C0B88200B27925 /* AppDelegate.swift */; };
-		0FF71B3229C0B88200B27925 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF71B3129C0B88200B27925 /* SceneDelegate.swift */; };
-		0FF71B3429C0B88200B27925 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF71B3329C0B88200B27925 /* ViewController.swift */; };
-		0FF71B3729C0B88200B27925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF71B3529C0B88200B27925 /* Main.storyboard */; };
-		0FF71B3929C0B88300B27925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FF71B3829C0B88300B27925 /* Assets.xcassets */; };
-		0FF71B3C29C0B88300B27925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF71B3A29C0B88300B27925 /* LaunchScreen.storyboard */; };
+		F4D7E19829C0BF2800E80997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E19729C0BF2800E80997 /* AppDelegate.swift */; };
+		F4D7E19A29C0BF2800E80997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E19929C0BF2800E80997 /* SceneDelegate.swift */; };
+		F4D7E19F29C0BF2800E80997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D7E19D29C0BF2800E80997 /* Main.storyboard */; };
+		F4D7E1A129C0BF2900E80997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D7E1A029C0BF2900E80997 /* Assets.xcassets */; };
+		F4D7E1A429C0BF2900E80997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D7E1A229C0BF2900E80997 /* LaunchScreen.storyboard */; };
+		F4D7E1AE29C0C0D100E80997 /* ReservationTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E1AD29C0C0D100E80997 /* ReservationTableVC.swift */; };
+		F4D7E1B029C0C12E00E80997 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E1AF29C0C12E00E80997 /* Reservation.swift */; };
+		F4D7E1B229C0C17700E80997 /* RoomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E1B129C0C17700E80997 /* RoomType.swift */; };
+		F4D7E1B429C0CA0C00E80997 /* GuestRegistrationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D7E1B329C0CA0C00E80997 /* GuestRegistrationVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0FF71B2C29C0B88200B27925 /* hotelRezApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotelRezApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FF71B2F29C0B88200B27925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FF71B3129C0B88200B27925 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FF71B3329C0B88200B27925 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0FF71B3629C0B88200B27925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FF71B3829C0B88300B27925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0FF71B3B29C0B88300B27925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0FF71B3D29C0B88300B27925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D7E19429C0BF2800E80997 /* Reservations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reservations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4D7E19729C0BF2800E80997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4D7E19929C0BF2800E80997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F4D7E19E29C0BF2800E80997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D7E1A029C0BF2900E80997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4D7E1A329C0BF2900E80997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4D7E1A529C0BF2900E80997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4D7E1AD29C0C0D100E80997 /* ReservationTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableVC.swift; sourceTree = "<group>"; };
+		F4D7E1AF29C0C12E00E80997 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
+		F4D7E1B129C0C17700E80997 /* RoomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomType.swift; sourceTree = "<group>"; };
+		F4D7E1B329C0CA0C00E80997 /* GuestRegistrationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestRegistrationVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0FF71B2929C0B88200B27925 /* Frameworks */ = {
+		F4D7E19129C0BF2800E80997 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +43,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0FF71B2329C0B88200B27925 = {
+		F4D7E18B29C0BF2800E80997 = {
 			isa = PBXGroup;
 			children = (
-				0FF71B2E29C0B88200B27925 /* hotelRezApp */,
-				0FF71B2D29C0B88200B27925 /* Products */,
+				F4D7E19629C0BF2800E80997 /* Reservations */,
+				F4D7E19529C0BF2800E80997 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0FF71B2D29C0B88200B27925 /* Products */ = {
+		F4D7E19529C0BF2800E80997 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FF71B2C29C0B88200B27925 /* hotelRezApp.app */,
+				F4D7E19429C0BF2800E80997 /* Reservations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FF71B2E29C0B88200B27925 /* hotelRezApp */ = {
+		F4D7E19629C0BF2800E80997 /* Reservations */ = {
 			isa = PBXGroup;
 			children = (
-				0FF71B2F29C0B88200B27925 /* AppDelegate.swift */,
-				0FF71B3129C0B88200B27925 /* SceneDelegate.swift */,
-				0FF71B3329C0B88200B27925 /* ViewController.swift */,
-				0FF71B3529C0B88200B27925 /* Main.storyboard */,
-				0FF71B3829C0B88300B27925 /* Assets.xcassets */,
-				0FF71B3A29C0B88300B27925 /* LaunchScreen.storyboard */,
-				0FF71B3D29C0B88300B27925 /* Info.plist */,
+				F4D7E19729C0BF2800E80997 /* AppDelegate.swift */,
+				F4D7E19929C0BF2800E80997 /* SceneDelegate.swift */,
+				F4D7E1AD29C0C0D100E80997 /* ReservationTableVC.swift */,
+				F4D7E1B329C0CA0C00E80997 /* GuestRegistrationVC.swift */,
+				F4D7E1AF29C0C12E00E80997 /* Reservation.swift */,
+				F4D7E1B129C0C17700E80997 /* RoomType.swift */,
+				F4D7E19D29C0BF2800E80997 /* Main.storyboard */,
+				F4D7E1A029C0BF2900E80997 /* Assets.xcassets */,
+				F4D7E1A229C0BF2900E80997 /* LaunchScreen.storyboard */,
+				F4D7E1A529C0BF2900E80997 /* Info.plist */,
 			);
-			path = hotelRezApp;
+			path = Reservations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0FF71B2B29C0B88200B27925 /* hotelRezApp */ = {
+		F4D7E19329C0BF2800E80997 /* Reservations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0FF71B4029C0B88300B27925 /* Build configuration list for PBXNativeTarget "hotelRezApp" */;
+			buildConfigurationList = F4D7E1A829C0BF2900E80997 /* Build configuration list for PBXNativeTarget "Reservations" */;
 			buildPhases = (
-				0FF71B2829C0B88200B27925 /* Sources */,
-				0FF71B2929C0B88200B27925 /* Frameworks */,
-				0FF71B2A29C0B88200B27925 /* Resources */,
+				F4D7E19029C0BF2800E80997 /* Sources */,
+				F4D7E19129C0BF2800E80997 /* Frameworks */,
+				F4D7E19229C0BF2800E80997 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = hotelRezApp;
-			productName = hotelRezApp;
-			productReference = 0FF71B2C29C0B88200B27925 /* hotelRezApp.app */;
+			name = Reservations;
+			productName = Reservations;
+			productReference = F4D7E19429C0BF2800E80997 /* Reservations.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0FF71B2429C0B88200B27925 /* Project object */ = {
+		F4D7E18C29C0BF2800E80997 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					0FF71B2B29C0B88200B27925 = {
+					F4D7E19329C0BF2800E80997 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = 0FF71B2729C0B88200B27925 /* Build configuration list for PBXProject "hotelRezApp" */;
+			buildConfigurationList = F4D7E18F29C0BF2800E80997 /* Build configuration list for PBXProject "Reservations" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +119,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 0FF71B2329C0B88200B27925;
-			productRefGroup = 0FF71B2D29C0B88200B27925 /* Products */;
+			mainGroup = F4D7E18B29C0BF2800E80997;
+			productRefGroup = F4D7E19529C0BF2800E80997 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FF71B2B29C0B88200B27925 /* hotelRezApp */,
+				F4D7E19329C0BF2800E80997 /* Reservations */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FF71B2A29C0B88200B27925 /* Resources */ = {
+		F4D7E19229C0BF2800E80997 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF71B3C29C0B88300B27925 /* LaunchScreen.storyboard in Resources */,
-				0FF71B3929C0B88300B27925 /* Assets.xcassets in Resources */,
-				0FF71B3729C0B88200B27925 /* Main.storyboard in Resources */,
+				F4D7E1A429C0BF2900E80997 /* LaunchScreen.storyboard in Resources */,
+				F4D7E1A129C0BF2900E80997 /* Assets.xcassets in Resources */,
+				F4D7E19F29C0BF2800E80997 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FF71B2829C0B88200B27925 /* Sources */ = {
+		F4D7E19029C0BF2800E80997 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF71B3429C0B88200B27925 /* ViewController.swift in Sources */,
-				0FF71B3029C0B88200B27925 /* AppDelegate.swift in Sources */,
-				0FF71B3229C0B88200B27925 /* SceneDelegate.swift in Sources */,
+				F4D7E1B429C0CA0C00E80997 /* GuestRegistrationVC.swift in Sources */,
+				F4D7E19829C0BF2800E80997 /* AppDelegate.swift in Sources */,
+				F4D7E19A29C0BF2800E80997 /* SceneDelegate.swift in Sources */,
+				F4D7E1B229C0C17700E80997 /* RoomType.swift in Sources */,
+				F4D7E1B029C0C12E00E80997 /* Reservation.swift in Sources */,
+				F4D7E1AE29C0C0D100E80997 /* ReservationTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0FF71B3529C0B88200B27925 /* Main.storyboard */ = {
+		F4D7E19D29C0BF2800E80997 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0FF71B3629C0B88200B27925 /* Base */,
+				F4D7E19E29C0BF2800E80997 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0FF71B3A29C0B88300B27925 /* LaunchScreen.storyboard */ = {
+		F4D7E1A229C0BF2900E80997 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0FF71B3B29C0B88300B27925 /* Base */,
+				F4D7E1A329C0BF2900E80997 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0FF71B3E29C0B88300B27925 /* Debug */ = {
+		F4D7E1A629C0BF2900E80997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +238,7 @@
 			};
 			name = Debug;
 		};
-		0FF71B3F29C0B88300B27925 /* Release */ = {
+		F4D7E1A729C0BF2900E80997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,16 +292,16 @@
 			};
 			name = Release;
 		};
-		0FF71B4129C0B88300B27925 /* Debug */ = {
+		F4D7E1A929C0BF2900E80997 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5AZLB7LVQ2;
+				DEVELOPMENT_TEAM = 63AT93P487;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hotelRezApp/Info.plist;
+				INFOPLIST_FILE = Reservations/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -300,7 +312,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kole-company.hotelRezApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.t-jamstudios.Reservations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,16 +320,16 @@
 			};
 			name = Debug;
 		};
-		0FF71B4229C0B88300B27925 /* Release */ = {
+		F4D7E1AA29C0BF2900E80997 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5AZLB7LVQ2;
+				DEVELOPMENT_TEAM = 63AT93P487;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = hotelRezApp/Info.plist;
+				INFOPLIST_FILE = Reservations/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +340,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "kole-company.hotelRezApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.t-jamstudios.Reservations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,25 +351,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FF71B2729C0B88200B27925 /* Build configuration list for PBXProject "hotelRezApp" */ = {
+		F4D7E18F29C0BF2800E80997 /* Build configuration list for PBXProject "Reservations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FF71B3E29C0B88300B27925 /* Debug */,
-				0FF71B3F29C0B88300B27925 /* Release */,
+				F4D7E1A629C0BF2900E80997 /* Debug */,
+				F4D7E1A729C0BF2900E80997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0FF71B4029C0B88300B27925 /* Build configuration list for PBXNativeTarget "hotelRezApp" */ = {
+		F4D7E1A829C0BF2900E80997 /* Build configuration list for PBXNativeTarget "Reservations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FF71B4129C0B88300B27925 /* Debug */,
-				0FF71B4229C0B88300B27925 /* Release */,
+				F4D7E1A929C0BF2900E80997 /* Debug */,
+				F4D7E1AA29C0BF2900E80997 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0FF71B2429C0B88200B27925 /* Project object */;
+	rootObject = F4D7E18C29C0BF2800E80997 /* Project object */;
 }
